@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="javaweb_login:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/javaweb_login_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="javaweb_login" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../../../桌面/jsp-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../桌面/servlet-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../桌面/mysql-connector-java-8.0.27.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../桌面/fastjson-1.1.37.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="javaweb_login/web/Web" />
+    </root>
+  </artifact>
+</component>
